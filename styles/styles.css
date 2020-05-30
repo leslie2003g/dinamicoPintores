@@ -1,0 +1,90 @@
+/*
+    Código CSS 
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.menuV{
+    overflow: hidden;
+    border: 5px double;
+}
+
+.menuV a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 16.66%;
+    text-align: center;
+    padding: 20px;
+}
+
+.menuV a:hover{
+    background-color: white;
+    color: black;
+}
+
+img{
+    width: 70%;
+    border: 5px double;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transition: all 0.5s ease;
+
+}
+
+img:hover{
+    transform: scale(0.9);
+    border-radius: 30px;
+}
+
+.main{
+    width: 40%;
+    display: block;
+}
+
+.uno{
+    width: 25%;
+    display: block;
+}
+
+.dos{
+    width: 28%;
+    display: block;
+}
+
+.tres{
+    width: 20%;
+    display: block;
+}
+
+.cuatro{
+    width: 15%;
+    display: block;
+}
+
+.main2{
+    width: 45%;
+    display: block;
+}
+
+.cinco{
+    width: 18%;
+    display: block;
+}
+
+.p1{
+    background-image: linear-gradient(white);
+}
+
+.centro{
+    width: 17%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-style: double;
+}
